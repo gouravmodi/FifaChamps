@@ -25,7 +25,7 @@
         autoplay: true,
         dots: false,
         arrows: false,
-        autoplaySpeed: 2500,
+        autoplaySpeed: 1200,
         responsive: [
             {
                 breakpoint: 576,
