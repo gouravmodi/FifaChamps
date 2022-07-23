@@ -136,8 +136,6 @@ p {
     color: #f5cd5a;
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
-    width: 44px;
-    height: 44px;
     position: relative;
     -webkit-transform: scale(1.5);
     -ms-transform: scale(1.5);
