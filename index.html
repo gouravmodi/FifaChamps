@@ -476,13 +476,13 @@
                         </tr>
                         <tr>
                             <td>STAKING</td>
-                            <td>210,000,000</td>
-                            <td>21%</td>
+                            <td>190,000,000</td>
+                            <td>19%</td>
                         </tr>
                         <tr>
                             <td>GAME REWARDS</td>
-                            <td>240,000,000</td>
-                            <td>24%</td>
+                            <td>220,000,000</td>
+                            <td>22%</td>
                         </tr>
                         <tr>
                             <td>MARKETING & CEX LISTING</td>
@@ -491,6 +491,11 @@
                         </tr>
                         <tr>
                             <td>TEAM</td>
+                            <td>40,000,000</td>
+                            <td>4%</td>
+                        </tr>
+                        <tr>
+                            <td>BURN</td>
                             <td>40,000,000</td>
                             <td>4%</td>
                         </tr>
@@ -666,15 +671,15 @@
 <script>
 const ctx = document.querySelector("#pie-chart");
 
-const labels = ["PRESALE","PRIVATE SALE","LIQUIDITY","STAKING","GAME REWARDS","MARKETING & CEX LISTING","TEAM"];
+const labels = ["PRESALE","PRIVATE SALE","LIQUIDITY","STAKING","GAME REWARDS","MARKETING & CEX LISTING","TEAM", "BURN"];
 
 const data = {
   labels,
   datasets: [
     {
-      data: [25,4,15,20,24,8,4],
+      data: [25,4,14,19,22,8,4,4],
       label: "Favourite Colour",
-      backgroundColor: ["#FFEC21","#9552EA","#F54F52","#47B39C","#378AFF","#FFA32F","#93F03B"],
+      backgroundColor: ["#d6a617","#61819b","#ea7844","#9e9721","#378AFF","#FFA32F","#bfb6ac", "#9b5f15"],
       hoverOffset: 3
     }
   ]
