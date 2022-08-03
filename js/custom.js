@@ -20,7 +20,7 @@
 
     //game part js
     $('.game-main').slick({
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
         dots: false,
